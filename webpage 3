@@ -1,1 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triumvirate of Academics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .subscribe {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .comment-box {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .comment-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            resize: none;
+        }
+        .comment-box input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Aim Across the Next Year</h1>
+    </header>
+
+    <section>
+        <p>Welcome to the Triumvirate of Academics!</p>
+        <p>We're embarking on an exciting journey to help students excel in their upcoming exams like WAEC, NECO, GCE, IGSCE, JAMB, SAT, and many more.</p>
+        <p>Join us in our mission to conquer these exams and achieve academic success!</p>
+        <button class="subscribe" onclick="subscribe()">Subscribe & Join WhatsApp Group</button>
+        <p>To join our WhatsApp group, message the number <strong>09048245733</strong>.</p>
+    </section>
+
+    <section>
+        <h2>Our Key Topics</h2>
+        <ul>
+            <!-- Biology -->
+            <li>Cell Structure and Function</li>
+            <li>Genetics and Heredity</li>
+            <li>Evolution and Natural Selection</li>
+            <li>Human Anatomy and Physiology</li>
+            <li>Plant Biology: Structure and Function</li>
+            <li>Ecology and Ecosystems</li>
+            <li>Microorganisms: Bacteria, Viruses, and Fungi</li>
+            <li>Photosynthesis and Cellular Respiration</li>
+            <li>Reproduction and Development in Plants and Animals</li>
+            <li>Immunology and the Immune System</li>
+            <li>Biochemistry: Enzymes and Metabolism</li>
+            <li>Human Health and Disease</li>
+            <li>Biotechnology and Genetic Engineering</li>
+            <li>Conservation Biology and Biodiversity</li>
+            <li>Ethical Issues in Biology: Cloning, Stem Cell Research, GMOs</li>
+            <!-- Physics -->
+            <li>Mechanics: Kinematics, Dynamics, and Statics</li>
+            <li>Thermodynamics: Laws of Thermodynamics, Heat Transfer</li>
+            <li>Waves and Optics: Light, Sound, Wave Properties</li>
+            <li>Electricity and Magnetism: Circuits, Electromagnetic Fields</li>
+            <li>Modern Physics: Quantum Mechanics, Relativity</li>
+            <li>Nuclear Physics: Atomic Structure, Radioactivity</li>
+            <li>Fluid Mechanics: Hydrodynamics, Aerodynamics</li>
+            <li>Oscillations and Waves: Simple Harmonic Motion, Wave Behavior</li>
+            <li>Electromagnetic Induction and Alternating Currents</li>
+            <li>Particle Physics: Subatomic Particles, Particle Interactions</li>
+            <li>Astrophysics and Cosmology: Stellar Evolution, Big Bang Theory</li>
+            <li>Quantum Mechanics: Wave-Particle Duality, Quantum Entanglement</li>
+            <li>Semiconductor Physics and Electronics</li>
+            <li>Classical Mechanics: Laws of Motion, Momentum</li>
+            <li>Applications of Physics in Engineering and Technology</li>
+            <!-- Chemistry -->
+            <li>Atomic Structure and Periodicity</li>
+            <li>Chemical Bonding and Molecular Structure</li>
+            <li>States of Matter: Solid, Liquid, Gas</li>
+            <li>Stoichiometry: Balancing Chemical Equations, Mole Concept</li>
+            <li>Chemical Kinetics: Reaction Rates, Rate Laws</li>
+            <li>Equilibrium: Chemical Equilibrium, Le Chatelier's Principle</li>
+            <li>Acids and Bases: pH Scale, Acid-Base Reactions</li>
+            <li>Thermodynamics and Thermochemistry</li>
+            <li>Electrochemistry: Redox Reactions, Electrolysis</li>
+            <li>Organic Chemistry: Functional Groups, Hydrocarbons</li>
+            <li>Inorganic Chemistry: Transition Metals, Coordination Compounds</li>
+            <li>Nuclear Chemistry: Radioactivity, Nuclear Reactions</li>
+            <li>Biochemistry: Biomolecules, Metabolism</li>
+            <li>Environmental Chemistry: Pollution, Green Chemistry</li>
+            <li>Analytical Chemistry: Spectroscopy, Chromatography</li>
+            <!-- Mathematics -->
+            <li>Algebra: Equations and Inequalities, Polynomials</li>
+            <li>Geometry: Euclidean Geometry, Coordinate Geometry</li>
+            <li>Trigonometry: Trigonometric Functions, Identities</li>
+            <li>Calculus: Differentiation, Integration</li>
+            <li>Statistics and Probability: Descriptive Statistics, Probability Distributions</li>
+            <li>Vectors and Matrices: Vector Operations, Matrix Algebra</li>
+            <li>Sequences and Series: Arithmetic Progressions, Geometric Progressions</li>
+            <li>Complex Numbers: Operations, Polar Form</li>
+            <li>Functions and Graphs: Linear Functions, Quadratic Functions</li>
+            <li>Differential Equations: First-order, Second-order</li>
+            <li>Analytical Geometry: Conic Sections, Loci</li>
+            <li>Discrete Mathematics: Sets, Logic</li>
+            <li>Numerical Methods: Root Finding, Interpolation</li>
+            <li>Mathematical Modeling: Applications in Physics, Chemistry, Biology</li>
+            <li>Financial Mathematics: Compound Interest, Loan Amortization</li>
+            <!-- Civic Education -->
+            <li>Citizenship and Democracy</li>
+            <li>Human Rights and Responsibilities</li>
+            <li>Political Systems: Democracy, Monarchy, Totalitarianism</li>
+            <li>Governance and Public Administration</li>
+            <li>Rule of Law and Justice System</li>
+            <li>Electoral Systems and Voting Processes</li>
+            <li>Civic Participation and Engagement</li>
+            <li>Social Justice and Equity</li>
+            <li>Civil Liberties and Civil Rights</li>
+            <li>Global Citizenship and International Relations</li>
+            <li>Environmental Citizenship: Sustainable Development, Conservation</li>
+            <li>Media Literacy and Information Awareness</li>
+            <li>Conflict Resolution and Peacebuilding</li>
+            <li>Cultural Diversity and Inclusion</li>
+            <li>Civic Education and Advocacy Campaigns</li>
+            <!-- English -->
+            <li>Reading Comprehension and Analysis</li>
+            <li>Writing Skills: Composition, Essay Writing</li>
+            <li>Grammar and Syntax: Parts of Speech, Sentence Structure</li>
+            <li>Vocabulary Building and Word Usage</li>
+            <li>Literary Devices: Metaphor, Simile, Symbolism</li>
+            <li>Literary Genres: Fiction, Poetry, Drama</li>
+            <li>Literary Elements: Plot, Characterization, Setting</li>
+            <li>Critical Thinking and Analysis in Literature</li>
+            <li>Oral Communication: Public Speaking, Debate</li>
+            <li>Research Skills: Information Retrieval, Source Evaluation</li>
+            <li>Creative Writing: Short Stories, Poetry</li>
+            <li>Literary Criticism: Literary Theory, Interpretation</li>
+            <li>Media Literacy: Understanding Media Messages</li>
+            <li>English Language Varieties: Dialects, Registers</li>
+            <li>English for Specific Purposes: Academic Writing, Professional Communication</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Leave a Comment</h2>
+        <div class="comment-box">
+            <form action="mailto:pensemi2k@gmail.com" method="post" enctype="text/plain">
+                <textarea name="comment" id="comment" rows="4" placeholder="Write your comment here" required></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Triumvirate of Academics. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function subscribe() {
+            alert("You've subscribed successfully! Message the number 09048245733 to join our WhatsApp group.");
+        }
+    </script>
+</body>
+</html>
 
