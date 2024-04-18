@@ -36,5 +36,5 @@ We'd love to hear from you! If you have any questions, suggestions, or feedback,
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [bb licensing company california](2024).
 
