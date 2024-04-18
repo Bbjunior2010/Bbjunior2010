@@ -33,9 +33,7 @@ We'd love to hear from you! If you have any questions, suggestions, or feedback,
 - **Email:** [contact@triumvirateacademics.com](mailto:contact@triumvirateacademics.com)
 - **Website:** [www.triumvirateacademics.com](http://www.triumvirateacademics.com)
 - **Social Media:** [Twitter](https://twitter.com/triumv_academia) | [Instagram](https://www.instagram.com/triumvirateacademics) | [Facebook](https://www.facebook.com/triumvirateacademics)
-## Logo
 
-![Triumvirate of Academics Logo](school.png)
 ## License
 
 This project is licensed under the [bb licensing company california](2024).
