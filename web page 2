@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triumvirate of Academics</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Triumvirate of Academics</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div>
+            <h2>About Us</h2>
+            <p>Welcome to the Triumvirate of Academics! We are a dedicated group of educators passionate about helping students excel in their WAEC and NECO examinations.</p>
+            <p>Our mission is to provide high-quality study materials, personalized tutoring, and comprehensive exam preparation strategies to empower students to achieve their academic goals.</p>
+            <p>Join us on this journey to academic success!</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Interactive Study Sessions</li>
+                <li>Personalized Tutoring</li>
+                <li>Mock Exams and Practice Questions</li>
+                <li>Exam Preparation Workshops</li>
+                <li>Access to Educational Resources</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div>
+            <h2>Contact Us</h2>
+            <p>Ready to start your journey towards exam success? Contact us today!</p>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Triumvirate of Academics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
